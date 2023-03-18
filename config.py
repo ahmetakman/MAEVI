@@ -24,8 +24,8 @@ data_arg.add_argument('--sparse_data_root', type=str, default='../../../media/og
 
 # Model
 model_arg = add_argument_group('Model')
-model_choices = ["VFIT_S", "VFIT_B"]
-model_arg.add_argument('--model', choices=model_choices, type=str, default="EVFIT_B")
+model_choices = ["MAEVI", "EVFIT"]
+model_arg.add_argument('--model', choices=model_choices, type=str, default="MAEVI")
 model_arg.add_argument('--nbr_frame', type=int, default=4)
 model_arg.add_argument('--joinType', choices=["concat", "add", "none"], default="concat")
 
@@ -47,7 +47,7 @@ learn_arg.add_argument('--resume_exp', type=str, default=None)
 learn_arg.add_argument('--checkpoint_dir', type=str, default=".")
 
 
-learn_arg.add_argument("--load_from", type=str, default='checkpoints/ParallelSynBlocksGauss/15_12/model_best.pth')
+learn_arg.add_argument("--load_from", type=str, default='pretrained/model_best.pth')
 
 learn_arg.add_argument("--pretrained", type=str,
                        help="Load from a pretrained model.")
