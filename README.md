@@ -44,7 +44,7 @@ After training, you can evaluate the model with following command:
 ```
 python test.py --data_root <dataset_path> --load_from pretrained/model_best.pth
 ```
-You can also evaluate MAEVI via our pretrained weights [here](https://drive.google.com/file/d/1AfWtvbKxV1_tj7ooZj7iZmJi1Mm5KIVr/view?usp=sharing).
+You can also evaluate MAEVI via our pretrained weights [here](https://drive.google.com/drive/folders/1GXkYQeimLEtseoK3GMGiMRV_JAxbqcrn?usp=sharing).
 
 ## BibTeX Citation
 
