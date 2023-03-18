@@ -9,7 +9,7 @@ A. Aydın Alatan [[Website](https://users.metu.edu.tr/home105/alatan/wwwhome/), 
   
  [[Paper](https://arxiv.org/abs/2303.02025)]  
   
-This paper is accepted for publication in [ICIP23](https://2023.ieeeicip.org/).
+This paper is submitted for publication in [ICIP23](https://2023.ieeeicip.org/).
 
 ![](figures/comparison.png)  
   
